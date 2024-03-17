@@ -65,3 +65,7 @@ nav ul {
     justify-content: space-around;
     list-style: none;
 }
+
+img {
+    width: 16em;
+}
