@@ -1,7 +1,7 @@
 body {
+    background-color: blueviolet;
     display: grid;
     border: 10px solid rgb(45, 45, 84);
-    background-color: blueviolet;
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas:
@@ -10,23 +10,28 @@ body {
         "nav "
         "main "
         "footer "
-        ;
+    ;
+}
+
+body:target {
+    background-color: green;
 }
 
 .showNav {
     height: 0.8em;
     width: 1.25em;
     display: block;
-    border-top: 0.2em solid rgb(255, 255, 255);
-    border-bottom: 0.2em solid rgb(255, 255, 255);
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
 }
+
 
 .showNav::before {
     content: '';
     position: absolute;
     width: 1.25em;
     margin-top: 0.3em;
-    border-top: 0.2em solid hwb(0 100% 0%);
+    border-top: 0.2em solid #fff;
 }
 
 #clicked .on {
