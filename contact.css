@@ -1,0 +1,11 @@
+form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    row-gap: 0.5em;
+    width: 400px;
+}
+
+input[type="submit"] {
+    grid-column: 2;
+}
