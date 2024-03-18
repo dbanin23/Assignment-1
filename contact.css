@@ -4,6 +4,7 @@ form {
     align-items: center;
     row-gap: 0.5em;
     width: 400px;
+    color: rgb(255, 0, 0);
 }
 
 input[type="submit"] {
