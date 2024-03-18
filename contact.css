@@ -4,12 +4,12 @@ form {
     align-items: center;
     row-gap: 0.5em;
     width: 400px;
-    
 }
 
 input[type="submit"] {
     grid-column: 2;
 }
+
 
 body {
     padding: 2em;
