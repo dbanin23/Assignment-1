@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    font-size: 40px;
+    font-weight: bold;
+    border: 5px solid rgb(255, 0, 0);
+    text-decoration: underline;
+    display: block;
+    grid-area: header;
+ 
+}
+
+nav {
+    background-color: rgb(255, 170, 0);
+    padding: 1em;
+    grid-area: nav;
+}
+
+main {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 2.5em;
+    grid-area: main;
+}
+
+aside {
+    background-color: rgb(6, 157, 6);
+    grid-area: aside;
+}
+
+footer {
+    background-color: rgb(198, 20, 130);
+    color: white;
+    padding: 2.3em;
+    grid-area: footer;
+}
+
+body {
+    display: grid;
+    border: 10px solid rgb(45, 45, 84);
+    grid-template-columns: 80% 20%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "main aside"
+        "footer footer"
+    ;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+img {
+    width: 16em;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+.myclass {
+    color: rgb(255, 255, 255);
+
+}
