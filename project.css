@@ -34,10 +34,17 @@ nav {
 }
 
 main {
-    background-color: rgb(0, 0, 0);
+background-color: rgb(0, 0, 0);
     color: white;
     padding: 2.5em;
     grid-area: main;
+    transition: 5s ease-in;
+
+}
+
+main:hover {
+    background-color: rgb(0, 255, 255);
+    color: red;
 }
 
 aside {
@@ -70,6 +77,8 @@ nav ul {
     justify-content: space-around;
     list-style: none;
     opacity: 1;
+    transition: opacity 0.5s ease-in;
+
 }
 
 nav ul:hover {
